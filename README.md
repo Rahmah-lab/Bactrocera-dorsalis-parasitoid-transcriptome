@@ -65,4 +65,13 @@ This was done using HTseq
 Here is the script for these two steps [script for the step](https://github.com/Rahmah-lab/Fruit-fly-transcriptomics/blob/master/Map_Featurecount.sh)
 
 ### 1.9 Differential gene expression analysis
+This was done using edgeR, see package source at [script for the step](https://bioconductor.org/packages/release/bioc/html/edgeR.html)
 This was done using edgeR; Here is the link to the script [script for the step](https://github.com/Rahmah-lab/Fruit-fly-transcriptomics/blob/master/DGE%20Analysis.R)
+
+### Visualisation
+Visualisation of the datasets was done using graphpad prism software [script for the step](https://www.graphpad.com/features)
+I followed this tutorial for the volacno plots [script for the step](https://www.youtube.com/watch?v=oAB3jNspij0) 
+
+### Functional annotation of the genes was done using 
+Functional annotation of the genes was done using the gene functional classification tool DAVID
+this online tool can be accessed at [script for the step](https://davidbioinformatics.nih.gov/tools.jsp) 
