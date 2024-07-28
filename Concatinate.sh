@@ -10,7 +10,7 @@
 #cd $PBS_O_WORKDIR
 
 
-cd /home/manager/Desktop/Analysis/sortme/sortmerna_outputs/insonclust_output/isoncorrect/output
+cd ~/isoncorrect/output
 
 for outfolder in *.correction; do base=$(basename $outfolder .correction);
 touch $outfolder/all_corrected_reads.fq
