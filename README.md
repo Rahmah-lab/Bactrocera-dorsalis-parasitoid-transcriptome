@@ -4,11 +4,11 @@ Fruit fly immune responses
 # ONT Transcriptome Analysis of Bactrocera dorsalis (non-model organism)
 
 Fruit fly immune responses
-This project was conducted by Gwokyalya Rehemah under the supervison of Dr Samira Mohamed, Jeremy Herren, Christopher W. Weldon, and Shepard Ndlela.
-The work done was supported by funding from ACIA/IDRC project number .....
-This Project was about exploring the immune responses of two major fruit flies of Eastern Africa, Bactrocera dorsalis (Hendel) and Ceratitis cosyra (Walker) when exposed to the hymenopteran parasitoids Diachasmimorpha longicaudata (Ashmaed) and Pystallia cosyrae.
-The fruit flies were raised under lab conditions untill they reached the second instar which was used for imunological bioassays.
+This project was conducted by Gwokyalya Rehemah under the supervison of Dr(s) Samira Mohamed, Jeremy Herren, Christopher Weldon, and Shepard Ndlela.
+This Project was about exploring the immune responses of an invasive and highly menacious invasive horticultural pest in Africa, Bactrocera dorsalis when exposed to the hymenopteran parasitoid wasp Fopius arisanus.
+The fruit flies (at teh egg stage) were exposed to the wasps and reared under lab conditions until they reached the second instar which was used for imunological bioassays.
 Bioassays were conducted using the parasitised larval groups with the unparasitised 2nd instar fruit fly larvae as controls.
+RNA sequencing was done using the long read Oxford nanopore cDNA sequencing kit
 
 # Steps in ONT Transcriptome Analysis Workflow
 1. Data Preprocessing: Filtration of low-quality data, removal of adapter sequences.
@@ -57,10 +57,12 @@ The script uses the basename function to extract the base name of each input fil
 The set -e option is used to exit immediately if any of the commands return a non-zero status, which helps to detect errors and prevent processing of corrupted data.
 
 ### 1.7 Mapping reads to reference genome
-This was doen using minimap; Here is the script for the step
+This was done using minimap
 
 ### 1.8 Feature count
-This was done using HTseq; Here is the link to this step
+This was done using HTseq
+#### Script
+Here is the script for these two steps [script for the step](https://github.com/Rahmah-lab/Fruit-fly-transcriptomics/blob/master/Map_Featurecount.sh)
 
 ### 1.9 Differential gene expression analysis
-This was done using edgeR; Here is the link to the script
+This was done using edgeR; Here is the link to the script [script for the step](https://github.com/Rahmah-lab/Fruit-fly-transcriptomics/blob/master/DGE%20Analysis.R)
