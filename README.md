@@ -6,7 +6,7 @@ Fruit fly immune responses
 Fruit fly immune responses
 This project was conducted by Gwokyalya Rehemah under the supervison of Dr(s) Samira Mohamed, Jeremy Herren, Christopher Weldon, and Shepard Ndlela.
 This Project was about exploring the immune responses of an invasive and highly menacious invasive horticultural pest in Africa, Bactrocera dorsalis when exposed to the hymenopteran parasitoid wasp Fopius arisanus.
-The fruit flies (at teh egg stage) were exposed to the wasps and reared under lab conditions until they reached the second instar which was used for imunological bioassays.
+The fruit flies (at the egg stage) were exposed to the wasps and reared under lab conditions until they reached the second instar which was used for imunological bioassays.
 Bioassays were conducted using the parasitised larval groups with the unparasitised 2nd instar fruit fly larvae as controls.
 RNA sequencing was done using the long read Oxford nanopore cDNA sequencing kit
 
@@ -70,7 +70,7 @@ This was done using edgeR, see package source at [script for the step](https://b
 
 ### Visualisation
 Visualisation of the datasets was done using graphpad prism software [script for the step](https://www.graphpad.com/features)
-I followed this tutorial for the volacno plots [script for the step](https://www.youtube.com/watch?v=oAB3jNspij0) 
+I followed this tutorial for the volacno plots [script for the step](https://www.youtube.com/watch?v=oAB3jNspij0)
 
 ### Functional annotation of the genes was done using 
 Functional annotation of the genes was done using the gene functional classification tool DAVID
