@@ -66,7 +66,7 @@ Here is the script for these two steps [script for the step](https://github.com/
 
 ### 1.9 Differential gene expression analysis
 This was done using edgeR, see package source at [script for the step](https://bioconductor.org/packages/release/bioc/html/edgeR.html)
-This was done using edgeR; Here is the link to the script [script for the step](https://github.com/Rahmah-lab/Fruit-fly-transcriptomics/blob/master/DGE%20Analysis.R)
+  Here is the link to the script [script for the step](https://github.com/Rahmah-lab/Fruit-fly-transcriptomics/blob/master/DGE%20Analysis.R)
 
 ### Visualisation
 Visualisation of the datasets was done using graphpad prism software [script for the step](https://www.graphpad.com/features)
