@@ -41,7 +41,7 @@ This was executed by ISONcorrect
 ### 1.6 Concatinating reads
 
 #### Script
-Here is the [script for the step](https://github.com/Rahmah-lab/Bactrocera-dorsalis-parasitoid-transcriptome/blob/master/Step.1_ONT_preprocessing.v24.sh)
+Here is the [script for the step](https://github.com/Rahmah-lab/Bactrocera-dorsalis-parasitoid-transcriptome/blob/master/ONT_preprocessing.sh)
 
 This script performs the following steps:
 - Change the working directory to ~/RNAseq
